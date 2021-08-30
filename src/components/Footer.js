@@ -34,10 +34,15 @@ function Footer() {
             <Link to="/">Terms of Service</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Contact Us</h2>
+            <h2>Contact Me</h2>
             <Link to="/">Contact</Link>
-            <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
+            <Link to="/">Email</Link>
+            <Link
+              to={{ pathname: "https://www.patreon.com/ZCAI" }}
+              target="_blank"
+            >
+              Patreon
+            </Link>
             <Link to="/">Sponsorships</Link>
           </div>
         </div>
