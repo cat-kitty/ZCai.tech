@@ -8,7 +8,7 @@ function Main() {
     <div className="main-container">
       <video src="/videos/video-2.mp4" autoPlay loop muted />
       <h1>WELCOME</h1>
-      <p>Feel free to explore</p>
+      <p>This site is currently under construction</p>
       <div className="main-btns">
         <Button
           className="btns"
