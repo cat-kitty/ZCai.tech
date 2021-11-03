@@ -25,17 +25,24 @@ function Footer() {
       </section>
       <div class="footer-links">
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          {/* <div class="footer-link-items">
             <h2>About Us</h2>
             <Link to="/sign-up">How it works</Link>
             <Link to="/">Testimonials</Link>
             <Link to="/">Careers</Link>
             <Link to="/">Investors</Link>
             <Link to="/">Terms of Service</Link>
-          </div>
+          </div> */}
           <div class="footer-link-items">
             <h2>Contact Me</h2>
-            <Link to="/">Contact</Link>
+            <Link
+              to={{
+                pathname: "https://www.linkedin.com/in/zhi-rong-c-79951b19a",
+              }}
+              target="_blank"
+            >
+              LinkedIn
+            </Link>
             <Link to="/">Email</Link>
             <Link
               to={{ pathname: "https://www.patreon.com/ZCAI" }}
@@ -43,17 +50,17 @@ function Footer() {
             >
               Patreon
             </Link>
-            <Link to="/">Sponsorships</Link>
+            {/* <Link to="/">Sponsorships</Link> */}
           </div>
         </div>
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          {/* <div class="footer-link-items">
             <h2>Videos</h2>
             <Link to="/">Submit Video</Link>
             <Link to="/">Ambassadors</Link>
             <Link to="/">Agency</Link>
             <Link to="/">Influencer</Link>
-          </div>
+          </div> */}
           <div class="footer-link-items">
             <h2>Social Media</h2>
             <Link
@@ -68,14 +75,14 @@ function Footer() {
             >
               Facebook
             </Link>
-            <Link to="/">Youtube</Link>
             <Link
               to={{
-                pathname: "https://www.linkedin.com/in/zhi-rong-c-79951b19a",
+                pathname:
+                  "https://www.youtube.com/channel/UCTtk542dl8URUg_CffP70bQ",
               }}
               target="_blank"
             >
-              LinkedIn
+              Youtube
             </Link>
           </div>
         </div>

@@ -12,19 +12,19 @@ function Main() {
       <h1>WELCOME</h1>
       <p>This site is currently under construction</p>
       <div className="main-btns">
-        <Button
+        {/* <Button
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
           GET TO KNOW ME
-        </Button>
+        </Button> */}
         <Button
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          WATCH VIDEO <i className="far fa-play-circle"/>
+          Study with Kitty! <i className="far fa-play-circle"/>
         </Button>
       </div>
     </div>

@@ -30,7 +30,7 @@ function Cards() {
               path="/timeline"
             />
             <CardItem
-              src="/images/img-2.jpg"
+              src="/images/img-extracurricular.jpg"
               text="Extracurricular Activities"
               label="Relaxation Time"
               path="/timeline"
