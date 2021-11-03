@@ -1,3 +1,5 @@
+//This is the main section of the homepage
+//The top area where there is a video in the background with text and buttons on top
 import React from "react";
 import "../App.css";
 import { Button } from "./Button";
