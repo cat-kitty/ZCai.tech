@@ -43,7 +43,7 @@ function Footer() {
             >
               LinkedIn
             </Link>
-            <Link to="/">Email</Link>
+            <a href="mailto:kittychoi15@gmail.com">Email</a>
             <Link
               to={{ pathname: "https://www.patreon.com/ZCAI" }}
               target="_blank"
@@ -115,7 +115,10 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link youtube"
-              to="/"
+              to={{
+                pathname:
+                  "https://www.youtube.com/channel/UCTtk542dl8URUg_CffP70bQ",
+              }}
               target="_blank"
               aria-label="YouTube"
             >
@@ -130,6 +133,16 @@ function Footer() {
               aria-label="LinkedIn"
             >
               <i className="fab fa-linkedin"></i>
+            </Link>
+            <Link
+              className="social-icon-link github"
+              to={{
+                pathname: "https://github.com/cat-kitty",
+              }}
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i className="fab fa-github"></i>
             </Link>
           </div>
         </section>
