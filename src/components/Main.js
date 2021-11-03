@@ -24,7 +24,7 @@ function Main() {
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          WATCH VIDEO <i className="far fa-play-circle" />
+          WATCH VIDEO <i className="far fa-play-circle"/>
         </Button>
       </div>
     </div>
