@@ -12,7 +12,11 @@ body {
   font-family: Helvetica, sans-serif;
   color: #525f7f;
 }
-
+.timeline-container{
+  /*position: absolute;*/
+  white-space: wrap;
+  /*overflow: hidden;*/
+}
 /* Prevents the timeline title from being hidden under the navbar when zooming */
 .timeline-title{
   padding-top: 50px;
@@ -29,11 +33,12 @@ h1 {
 .timeline {
   display: flex;
   flex-direction: column;
-  margin: 20px auto;
+  margin: 25% auto;
   position: relative;
 }
 
 .timeline__event {
+  /*padding-top: 100px;*/
   margin-bottom: 20px;
   position: relative;
   display: flex;
@@ -47,7 +52,7 @@ h1 {
   flex-direction: row-reverse;
 }
 .timeline__event:nth-child(2n + 1) .timeline__event__date {
-  border-radius: 0 6px 6px 0;
+  border-radius: 0 6px 6px 0; /*Changes the curvature of the corners*/
 }
 .timeline__event:nth-child(2n + 1) .timeline__event__content {
   border-radius: 6px 0 0 6px;
@@ -110,7 +115,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #9251ac;
+  color: #9251ac; 
   padding: 20px;
   align-self: center;
   margin: 0 20px;
@@ -128,7 +133,7 @@ h1 {
 .timeline__event__icon:before {
   content: "";
   width: 2px;
-  height: 100%;
+  height: 100%; /*Changes left line*/
   background: #f6a4ec;
   position: absolute;
   top: 0%;
@@ -139,7 +144,7 @@ h1 {
 }
 .timeline__event__icon:after {
   content: "";
-  width: 100%;
+  width: 150%;
   height: 2px;
   background: #f6a4ec;
   position: absolute;
@@ -229,15 +234,54 @@ ul {
   color: #ff46c8;
 }
 
+.timeline__event--type5:after {
+  background: #eeaa16;
+}
+.timeline__event--type5 .timeline__event__date {
+  color: #fce6b7;
+  background: #eeaa16;
+}
+.timeline__event--type5:nth-child(2n + 1) .timeline__event__icon:before, .timeline__event--type5:nth-child(2n + 1) .timeline__event__icon:after {
+  background: #fce6b7;
+}
+.timeline__event--type5 .timeline__event__icon {
+  background: #fce6b7;
+  color: #eeaa16;
+}
+.timeline__event--type5 .timeline__event__icon:before, .timeline__event--type5 .timeline__event__icon:after {
+  background: #fce6b7;
+}
+.timeline__event--type5 .timeline__event__title {
+  color: #eeaa16;
+}
+
 .timeline__event:last-child .timeline__event__icon:before {
   content: none;
   /*padding-bottom: 5%;*/
   margin-bottom: 20px;
 }
-@media (max-width: 786px) {
+
+@media screen and (max-width: 800px){
+  .timeline-container{
+    margin-top: 10%;
+    margin-bottom: 200%;
+  }
+
+  h1 {
+    margin-top: 0.6em;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+  }
+
+  .first{
+    margin-top: 150%;
+  }
+
   .timeline__event {
     flex-direction: column;
     align-self: center;
+    /*margin-top: 100%;*/
  }
   .timeline__event__content {
     width: 100%;
@@ -267,7 +311,12 @@ ul {
     border-radius: 6px 6px 0 0;
     margin: 0;
  }
+
+ /*.timeline__event:last-child {
+   margin-bottom: 100%;
+ }*/
 }
+
 @keyframes fillLeft {
   100% {
     right: 100%;

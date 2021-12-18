@@ -5,9 +5,9 @@ import "./Timeline.css";
 export default function Products() {
   return (
     <div className="timeline-container">
-      <h1 className="timeline-title">TIMELINE</h1>
+      <h1 class="timeline-title">TIMELINE</h1>
       <div class="timeline"> 
-        <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+        <div class="timeline__event first animated fadeInUp delay-3s timeline__event--type1">
           <div class="timeline__event__icon ">
             <i class="fa fa-university"></i> 
           </div>
@@ -74,56 +74,72 @@ export default function Products() {
 
         <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
           <div class="timeline__event__icon">
-            <i class="lni-burger"></i>
-
+            <i class="fa fa-briefcase"></i>
           </div>
           <div class="timeline__event__date">
-            20-08-2019
+            2021.07.01
           </div>
           <div class="timeline__event__content">
             <div class="timeline__event__title">
-              Lunch
+              Close Captioning at Ai-Media
             </div>
             <div class="timeline__event__description">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+              <p>
+                July 2021 - September 2021
+              </p>
+              <p>
+                Over the summer, I worked as a close captioner at Ai-Media.
+                I was trained to make captions by respeaking with the aid of a program, Dragon NaturallySpeaking.
+              </p>
             </div>
           </div>
         </div>
+
+      
 
         <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
           <div class="timeline__event__icon">
-            <i class="lni-slim"></i>
-
+          <i class="far fa-handshake"></i>
           </div>
           <div class="timeline__event__date">
-            20-08-2019
+            2018.09.13
           </div>
           <div class="timeline__event__content">
             <div class="timeline__event__title">
-              Exercise
+              Volunteer - Toronto Public Library (CFO of Youth Advisory Group)
             </div>
             <div class="timeline__event__description">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+              <p>
+              ❖	Chief Financial Officer, in charge of the library budget for 30 students (12 - 18 years old)
+              </p>
             </div>
           </div>
         </div>
 
-        <div class="timeline__event animated fadeInUp timeline__event--type1">
+        <div class="timeline__event animated fadeInUp timeline__event--type5">
           <div class="timeline__event__icon">
-            <i class="lni-cake"></i>
+            <i class="fa fa-swimmer"></i>
           </div>
           <div class="timeline__event__date">
-            20-08-2019
+            2017.09.12
           </div>
           <div class="timeline__event__content">
             <div class="timeline__event__title">
-              Birthday
+              Sports - Swimming
             </div>
             <div class="timeline__event__description">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+              <p>
+                September 2017 - March 2020
+              </p>
+              <p> 
+                Junior and Senior Girls Swim Captain
+                
+              </p>
             </div>
           </div>
         </div>
+       
+     
 
       </div>
     </div>
@@ -148,6 +164,22 @@ export default function Products() {
     
               <!--First Day of Classes at the University of Waterloo-->
     */
+    /* <div class="timeline__event animated fadeInUp timeline__event--type5">
+              <div class="timeline__event__icon">
+                <i class="fas fa-chess"></i>
+              </div>
+              <div class="timeline__event__date">
+                20-08-2019
+              </div>
+              <div class="timeline__event__content">
+                <div class="timeline__event__title">
+                  Sports
+                </div>
+                <div class="timeline__event__description">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+                </div>
+              </div>
+            </div>-->*/
     
   );
 }
