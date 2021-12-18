@@ -14,6 +14,7 @@ function Cards() {
               text="Venture into the Past (Experience/Education)"
               label="Timeline"
               path="/timeline"
+              href="#timeline"
             />
             <CardItem
               src="/images/img-1.jpg"
