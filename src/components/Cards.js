@@ -29,9 +29,10 @@ function Cards() {
               text="Explore Projects"
               label="Projects"
               path="/timeline"
+              
             />
             <CardItem
-              src="/images/img-home.jpg"
+              src="/images/img-pool.jpg"
               text="Extracurricular Activities"
               label="Relaxation Time"
               path="/timeline"
