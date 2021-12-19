@@ -8,11 +8,13 @@ import Achievements from "./components/pages/Achievements";
 import SignUp from "./components/pages/SignUp";
 import Blog from "./components/pages/Blog";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop/>
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />

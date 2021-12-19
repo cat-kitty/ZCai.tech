@@ -29,7 +29,6 @@ function Cards() {
               text="Explore Projects"
               label="Projects"
               path="/timeline"
-              
             />
             <CardItem
               src="/images/img-pool.jpg"

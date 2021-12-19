@@ -11,7 +11,7 @@ function Navbar() {
 
   //The following function allow the navigation bar to be clicked
   const handleClick = () => setClick(!click);
-  //Build the menu
+  //Build the menu, close the menu
   const closeMobileMenu = () => setClick(false);
 
   //This part resizes the navigation bar when the screen shrinks so the buttons can be toggled and resize from a pannel instead
@@ -30,6 +30,7 @@ function Navbar() {
 
   window.addEventListener("resize", showButton);
 
+
   return (
     <>
       <nav className="navbar">
@@ -43,7 +44,7 @@ function Navbar() {
           {/*The following line is an if statement, if (?) true then the process on the left side of the colon will run, if false then the function on the right will run*/}
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}  scroll={true}>
                 Home
               </Link>
             </li>
