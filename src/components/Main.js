@@ -10,7 +10,7 @@ function Main() {
     <div className="main-container">
       <video src="/videos/video-2.mp4" autoPlay loop muted />
       <h1>WELCOME</h1>
-      <p>This site is currently under construction 2021.12.18</p>
+      <p>This site is currently under construction 2021.12.19 ~ Construction should be completed by January</p>
       <div className="main-btns">
         {/* <Button
           className="btns"
