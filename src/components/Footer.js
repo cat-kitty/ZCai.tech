@@ -90,7 +90,7 @@ function Footer() {
       <section className="social-media">
         <section className="social-media-wrap">
           <div className="footer-logo">
-            <Link to="/" className="social-logo">
+            <Link to="/" href="top" className="social-logo">
               Kitty
               <i className="fas fa-cat" />
             </Link>

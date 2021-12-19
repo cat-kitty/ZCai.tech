@@ -9,6 +9,8 @@ import SignUp from "./components/pages/SignUp";
 import Blog from "./components/pages/Blog";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import Gallery from "./components/pages/Gallery";
+import Projects from "./components/pages/Projects";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path="/achievements" component={Achievements} />
           <Route path="/sign-up" component={SignUp} />
           <Route path="/blog" component={Blog} />
+          <Route path="/gallery" component={Gallery} />
+          <Route path="/projects" component={Projects} />
         </Switch>
         <Footer />
       </Router>

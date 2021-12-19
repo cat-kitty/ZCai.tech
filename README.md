@@ -80,6 +80,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
         - Prevent the page from continously scrolling
         - Count views per page
         - Make a like button on the home page
+        - The Sign Up doesn't shrink from the navbar (but it's not a bad thing because it makes it easier to access)
     - Important:
         - Build the blog page
             - Template: https://codepen.io/selcukcura/pen/MORaZJ

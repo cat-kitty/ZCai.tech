@@ -38,16 +38,20 @@ function Navbar() {
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             Kitty <i className="fas fa-cat" />
           </Link>
+
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
+
           {/*The following line is an if statement, if (?) true then the process on the left side of the colon will run, if false then the function on the right will run*/}
+          
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
+
             <li className="nav-item">
               <Link
                 to="/achievements"
@@ -57,11 +61,25 @@ function Navbar() {
                 Achievements
               </Link>
             </li>
+
             <li className="nav-item">
               <Link to="/blog" className="nav-links" onClick={closeMobileMenu}>
                 Blog
               </Link>
             </li>
+
+            <li className="nav-item">
+              <Link to="/gallery" className="nav-links" onClick={closeMobileMenu}>
+                Gallery
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link to="/projects" className="nav-links" onClick={closeMobileMenu}>
+                Projects
+              </Link>
+            </li>
+
             <li className="nav-item">
               <Link
                 to="/timeline"
@@ -71,6 +89,7 @@ function Navbar() {
                 Timeline
               </Link>
             </li>
+
             <li className="nav-item">
               <Link
                 to="/sign-up"
@@ -80,6 +99,7 @@ function Navbar() {
                 Sign Up
               </Link>
             </li>
+            
           </ul>
           {button && <Button buttonStyle="btn--outline">Sign Up</Button>}
         </div>

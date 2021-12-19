@@ -3,10 +3,10 @@
   height: 80px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-  position: sticky;
-  top: 0;
+  /* align-items: center; */
+  font-size: 1.3rem;
+  position: sticky; /*doesn't appear to do much*/
+  top: 0; /*doesn't appear to do much*/
   z-index: 999;
 }
 
@@ -36,7 +36,7 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(6, auto); /*Make edits here if more items are added to the nav bar*/
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -75,7 +75,7 @@
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1200px) {
   .NavbarItems {
     position: relative;
   }

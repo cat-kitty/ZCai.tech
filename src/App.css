@@ -17,18 +17,20 @@
   font-size: 3rem;
 }
 
-/*
+/* 
+edits backgrounds but it doesn't fill the entire background for some reason...
 .timeline {
-  background-image: url("/images/img-2.jpg");
-  background-position: center;
+   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+
+  background: #23dddd;
+  background-size: fill;
+  color: #525f7f;
   font-size: 100px;
 }
 
 .achievements {
-  background-image: url("/images/img-1.jpg");
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -37,11 +39,10 @@
 }
 
 .sign-up {
-  background-image: url("/images/img-8.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-}
-*/
+} */
+

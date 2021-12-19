@@ -3,15 +3,17 @@
 }
 
 /*Make it so that it does not effect navbar*/
-/*html {
+/*html {z
   font-size: 0.5rem;
 }
 */
 body {
-  background: #f6f9fc;
+  /* background: #e7f8f8; */
+  background: linear-gradient(90deg, rgb(222, 221, 253) 0%, rgba(253, 160, 210, 0.562) 35%, rgba(194,245,255,1) 100%);
   font-family: Helvetica, sans-serif;
   color: #525f7f;
 }
+
 .timeline-container{
   /*position: absolute;*/
   white-space: wrap;

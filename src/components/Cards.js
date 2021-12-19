@@ -28,13 +28,13 @@ function Cards() {
               src="/images/img-projects.jpg"
               text="Explore Projects"
               label="Projects"
-              path="/timeline"
+              path="/projects"
             />
             <CardItem
               src="/images/img-pool.jpg"
               text="Extracurricular Activities"
               label="Relaxation Time"
-              path="/timeline"
+              path="/gallery"
             />
             <CardItem
               src="/images/img-achievements.jpg"
