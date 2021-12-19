@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
 
-export default function Achievements() {
-  return <h1 className="achievements">GALLERY</h1>;
+export default function Gallery() {
+  return <h1 className="gallery">GALLERY</h1>;
 }

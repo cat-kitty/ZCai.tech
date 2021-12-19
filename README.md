@@ -91,6 +91,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
             - Template: https://codepen.io/ethanthompson/pen/ogbebL
         - Build activities page -> Possibly convert to a gallery for my artwork
             - https://codepen.io/web-tiki/pen/HhCyd
+            - Make it so that when an image is clicked, it pops up and fills the entire page
             - https://codepen.io/MightyShaban/pen/eGaCf
             - https://codepen.io/dudleystorey/pen/kiajB
             - https://codepen.io/kathykato/pen/KRQOKY
@@ -102,3 +103,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
         - https://codepen.io/uiswarup/pen/RBByzW
         - https://codepen.io/ajaypatelaj/pen/zIBjJ
         - https://codepen.io/candroo/pen/wKEwRL
+    - Miscallenous ideas:
+        - Get length/width of page
+            - Draw line under the title
+        - For blog: Put title cooking  
+            - Write a blog about getting rid of calcium residue
+            - Write a blog about making egg tarts
+            - Write a blog about making bubble tea
+        - In the future make the blog so that it can be filtered by date (similar idea can be applied to certificates and projects):
+            - By popularity
+            - By likes
+            - By comments
+            - By genre

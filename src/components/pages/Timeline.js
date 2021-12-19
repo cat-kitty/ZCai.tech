@@ -7,6 +7,7 @@ export default function Products() {
     <div className="timeline-container">
       <h1 class="timeline-title">TIMELINE</h1>
       <div class="timeline"> 
+        <div class="spacer-50"></div>
         <div class="timeline__event first animated fadeInUp delay-3s timeline__event--type1">
           <div class="timeline__event__icon ">
             <i class="fa fa-university"></i> 
@@ -139,10 +140,10 @@ export default function Products() {
           </div>
         </div>
        
-     
-
       </div>
+      <div class="spacer-50"></div>
     </div>
+    
 /*
     <div className="timeline-container">
       <h1 className="timeline-title" id="timeline">TIMELINE</h1>
