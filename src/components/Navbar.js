@@ -44,7 +44,7 @@ function Navbar() {
           {/*The following line is an if statement, if (?) true then the process on the left side of the colon will run, if false then the function on the right will run*/}
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}  scroll={true}>
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
