@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:400,800|Lato:300,400&display=swap');
+ body {
+	 background: #f2d3c6;
+}
+ .container {
+	 min-width: 750px;
+	 height: 100vh;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+
+.intro{
+    /*position: static;*/
+    display: flex; /*Allows for the manipulation so that text is centered*/
+    position: absolute;
+	background: #f9f9f9;
+	width: 50%;
+	height: 20%;
+	border-radius: 5px;
+	margin: 10px;
+    left: 25%;
+    padding: 2%;
+    /*bottom: 50%;*/
+	box-shadow: 2px 5px 8px rgba(37, 36, 33, .2);
+	overflow: hidden;
+	transition: all 0.3s ease;
+    align-items: center;
+}
+ .item {
+	 position: relative;
+	 background: #f9f9f9;
+	 width: 280px;
+	 height: 350px;
+	 border-radius: 5px;
+	 margin: 10px;
+	 box-shadow: 2px 5px 8px rgba(37, 36, 33, .2);
+	 overflow: hidden;
+	 transition: all 0.3s ease;
+}
+ .item:hover {
+	 transform: scale(1.03);
+	 cursor: pointer;
+	 box-shadow: 5px 8px 10px rgba(37, 36, 33, .2);
+}
+
+/* h1 {
+	 color: #799875;
+	 text-transform: uppercase;
+	 font-size: 5em;
+	 font-weight: 800;
+	 line-height: 0.75em;
+	 margin: 50px 0 10px 0;
+}*/
+.labelh1 {
+    color: #799875;
+    text-transform: uppercase;
+    font-size: 5em;
+    font-weight: 800;
+    line-height: 0.75em;
+    margin: 50px 0 10px 0;
+}
+
+.blogp {
+    font-size: 1.2em;
+}
+
+ .dark {
+	 background: #f2d3c6;
+}
+ .seattle {
+	 opacity: 0.7;
+	 height: 100%;
+	 margin-left: -120%;
+}
+ .title {
+	position: absolute;
+	top: 0;
+	color: #f9f9f9;
+	-webkit-text-stroke: 1px #799875;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 800;
+    line-height: 0.75em;
+    margin: 50px 0 10px 0;
+}
+ .accent-line {
+	 height: 7px;
+	 width: 50%;
+	 margin-bottom: 15px;
+}
+ .green {
+	 background: #799875;
+	 position: absolute;
+	 top: 51%;
+}
+ .pink {
+	 background: #f2d3c6;
+}
+ .pink2 {
+	 background: #ddc1b5;
+}
+ .pink3 {
+	 background: #c4aba1;
+}
+ .btn2 {
+	 position: absolute;
+	 bottom: 30px;
+	 left: 25px;
+	 padding: 14px;
+	 border-radius: 5px;
+	 outline: 0;
+	 font-family: 'Lato', sans-serif;
+	 letter-spacing: 2px;
+	 text-transform: uppercase;
+	 background: #f9f9f9;
+	 border: 0;
+	 color: #799875;
+	 box-shadow: 2px 2px 5px rgba(37, 36, 33, .5);
+	 transition: all 0.3s ease;
+}
+ .btn2:hover {
+	 background: #799875;
+	 color: #f9f9f9;
+	 cursor: pointer;
+	 transition: all 0.3s ease;
+	 transform: scale(1.04);
+}
+
+ 

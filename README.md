@@ -68,3 +68,36 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+2021.12.18
+- Plans for next steps:
+    - Find a better video to loop on the main page
+    - Not as important:
+        - Add more modules to the timeline
+        - Make it so that the timeline can grow by itself and is not dependent on percentages to be on the page
+        - Make the subscribe button work 
+            - Template: https://codepen.io/marcobiedermann/pen/dsbFy
+        - Prevent the page from continously scrolling
+        - Count views per page
+        - Make a like button on the home page
+    - Important:
+        - Build the blog page
+            - Template: https://codepen.io/selcukcura/pen/MORaZJ
+        - Build post layouts:
+            - Template: https://codepen.io/hexagoncircle/pen/OJyPygv
+            - Template: https://codepen.io/laviperchik/pen/PBYLZw
+        - Build a project page
+            - Template: https://codepen.io/ethanthompson/pen/ogbebL
+        - Build activities page -> Possibly convert to a gallery for my artwork
+            - https://codepen.io/web-tiki/pen/HhCyd
+            - https://codepen.io/MightyShaban/pen/eGaCf
+            - https://codepen.io/dudleystorey/pen/kiajB
+            - https://codepen.io/kathykato/pen/KRQOKY
+        - Build certifications page
+            - Template: https://codepen.io/marlenesco/pen/NqOozj
+    - Miscallenous templates:
+        - https://codepen.io/juliepark/pen/jOOMwyg
+        - https://codepen.io/JFarrow/pen/sDxhA
+        - https://codepen.io/uiswarup/pen/RBByzW
+        - https://codepen.io/ajaypatelaj/pen/zIBjJ
+        - https://codepen.io/candroo/pen/wKEwRL
