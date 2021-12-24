@@ -1,6 +1,7 @@
+
 <?php
-    $email = $_POST['email'];
-    file_put_contents('emails.txt', $email . PHP_EOL , FILE_APPEND | LOCK_EX); ?>
-
-
-
+if (isset($_POST['emailbutton'])) {
+    file_put_contents('emails.txt',
+        'E-mail: '.$_POST['email']
+    );
+}?>

@@ -3,6 +3,9 @@ import "./Footer.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 
+//import { Document } from "./trial";
+
+
 function Footer() {
   return (
     <div className="footer-container">
@@ -12,7 +15,8 @@ function Footer() {
           You can unsubscribe at any time.
         </p>
         <div className="input-areas">
-          <form id="signup-form" action="/subscribe.php" method="post">
+          {/*<form id="signup-form" action="/subscribe.php" method="post">*/}
+          <form id="signupform">
             {/*<input
               className="footer-input"
               name="email"
@@ -26,12 +30,15 @@ function Footer() {
               id="email"
               placeholder="Your Email"
             />
-            <input
+            {/*<input
               className="footer-input"
               name="emailbutton"
               type="submit"
               value="Subscribe"
-            />
+              
+            />*/}
+            <Button buttonStyle="btn--outline" onclick="document()">Subscribe</Button>
+            <script src="./trial.js"></script>
             {/*<Button buttonStyle="btn--outline">Subscribe</Button>*/}
           </form>
         </div>
