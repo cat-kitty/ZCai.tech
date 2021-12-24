@@ -3,6 +3,7 @@
 import React from "react";
 import "../App.css";
 import { Button } from "./Button";
+import { Button2 } from "./Button2";
 import "./Main.css";
 
 function Main() {
@@ -12,6 +13,14 @@ function Main() {
       <h1>WELCOME</h1>
       <p>This site is currently under construction 2021.12.19 ~ Construction should be completed by January</p>
       <div className="main-btns">
+        <Button2
+          className="btns"
+          buttonStyle="btn--primary"
+          buttonSize="btn--large"
+        >
+          Download Resume
+        </Button2>
+        {/*<a href="./files/ZhiRongCaiResume.pdf" download="Zhi Rong Cai Resume">Download the pdf</a>*/}
         {/* <Button
           className="btns"
           buttonStyle="btn--outline"

@@ -12,14 +12,27 @@ function Footer() {
           You can unsubscribe at any time.
         </p>
         <div className="input-areas">
-          <form>
-            <input
+          <form id="signup-form" action="/subscribe.php" method="post">
+            {/*<input
               className="footer-input"
               name="email"
               type="email"
               placeholder="Your Email"
+            />*/}
+            <input
+              className="footer-input"
+              name="email"
+              type="email"
+              id="email"
+              placeholder="Your Email"
             />
-            <Button buttonStyle="btn--outline">Subscribe</Button>
+            <input
+              className="footer-input"
+              name="emailbutton"
+              type="submit"
+              value="Subscribe"
+            />
+            {/*<Button buttonStyle="btn--outline">Subscribe</Button>*/}
           </form>
         </div>
       </section>
