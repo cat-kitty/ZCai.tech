@@ -7,8 +7,67 @@
     color: #333;
     font-weight: 700;
 } */
-  
-a {
+
+/*  display: flex;
+  position: relative;
+  width: 70%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 25px;
+  align-items: center;*/
+.smallh1{
+  font-size: 3vh;
+  color: black;
+  font-style: italic;
+}
+.polaroid {
+  display: flex; /*Allows for the manipulation so that text is centered*/
+  position: relative;
+  background: #f9f9f9;
+  width: 85vw;
+  height: 45vh;
+  border-radius: 5px;
+  margin: 10px;
+  left: 5%;
+  /* right: -50%; */
+  padding: 2%;
+  font-size: 2.5vh;
+  /*bottom: 50%;*/
+  box-shadow: 2px 5px 8px rgba(37, 36, 33, .2);
+  overflow: auto; /* If text overflows the box */
+  transition: all 0.3s ease;
+  align-items: center;
+}
+.a {
+  color: blue;
+
+}
+
+.items{
+  padding-left: 2%;
+}
+.nice {
+  display: flex; /*Allows for the manipulation so that text is centered*/
+  position: relative;
+  background: #f9f9f9;
+  width: 40vw;
+  height: 60vh;
+  border-radius: 5px;
+  margin: 10px;
+  left: 25%;
+  padding: 2%;
+  font-size: 2.5vh;
+  /*bottom: 50%;*/
+  box-shadow: 2px 5px 8px rgba(37, 36, 33, .2);
+  overflow: auto; /* If text overflows the box */
+  transition: all 0.3s ease;
+  align-items: center;
+}
+
+.projectimg{
+  max-width: 20%;
+}
+/* a {
     color: inherit;
     text-decoration: none;
   }
@@ -40,4 +99,4 @@ a {
   
   .spacer-50 {
     margin: 50px 0;
-  }
+  } */

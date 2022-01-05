@@ -12,6 +12,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import Gallery from "./components/pages/Gallery";
 import Projects from "./components/pages/Projects";
 
+import personalwebsite from "./components/pages/blog/personalwebsite";
+
 function App() {
   return (
     <>
@@ -26,6 +28,7 @@ function App() {
           <Route path="/blog" component={Blog} />
           <Route path="/gallery" component={Gallery} />
           <Route path="/projects" component={Projects} />
+          <Route path="/blog/personalwebsite" component={personalwebsite}/>
         </Switch>
         <Footer />
       </Router>
