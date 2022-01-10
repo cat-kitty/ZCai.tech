@@ -26,9 +26,8 @@ export default function Projects() {
           </div> 
         </div>
       </div>*/}
-      <div class="spacer-50"></div>
       <div className="polaroid">
-        <img src="/images/project-project.png" alt="Image of zcai.tech Website" width="390vw"/>
+        <img className ="projectimg" src="/images/project-project.png" alt="Image of zcai.tech Website"/>
         <div className="items">
           <h1 className="smallh1">Personal Website</h1>
           <p class="teaser-text">
@@ -39,9 +38,7 @@ export default function Projects() {
           </div>
       </div>
 
-      <div class="spacer-50"></div>
       <div className="polaroid">
-        <img src="/images/project-blog.png" alt="Image of zcai.tech Website" width="390vw"/>
         <div className="items">
           <h1 className="smallh1">Blog Website</h1>
           <p class="teaser-text">
@@ -50,11 +47,11 @@ export default function Projects() {
             <a href="/blog/personalwebsite">Read more...</a>
             </p>
           </div>
+          <img className ="projectimg" src="/images/project-blog.png" alt=""/>
       </div>
 
-      <div class="spacer-50"></div>
       <div className="polaroid">
-        <img src="/images/project-agario.png" alt="Image of zcai.tech Website" width="390vw"/>
+        <img className ="projectimg" src="/images/project-bot.png" alt=""/>
         <div className="items">
           <h1 className="smallh1">Trading-Bot</h1>
           <p class="teaser-text">
@@ -65,9 +62,7 @@ export default function Projects() {
           </div>
       </div>
 
-      <div class="spacer-50"></div>
       <div className="polaroid">
-        <img src="/images/project-agario.png" alt="Image of zcai.tech Website" width="390vw"/>
         <div className="items">
           <h1 className="smallh1">Agar.io Game</h1>
           <p class="teaser-text">
@@ -76,9 +71,14 @@ export default function Projects() {
             <a href="/blog/personalwebsite">Read more...</a>
             </p>
           </div>
+          <img className ="projectimg" src="/images/project-agario.png" alt=""/>
       </div>
 
-      <div className="polaroid">
+      <div class="spacer-20"></div>
+
+      <div></div>
+
+      {/* <div className="polaroid">
         <a href="#"><img src="https://www.comindware.com/blog/wp-content/uploads/2015/09/project-puzzle.jpg" alt="" class="img-responsive" width="300vw"/></a>
         <div className="items">
           <a href="zcai.tech">
@@ -86,7 +86,7 @@ export default function Projects() {
               <p class="teaser-text">Write a description of the project, what language was used, what was learned and possibly a read more link which links to a blog about the website</p>
           </a>
           </div>
-      </div>
+      </div> */}
 
 
       {/* <div className="polaroid">

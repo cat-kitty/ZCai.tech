@@ -18,6 +18,10 @@ video {
   object-fit: contain;
 }
 
+.centerp{
+  text-align: center; 
+  margin-left: 3px;
+}
 .main-container > h1 {
   color: #fff;
   font-size: 100px;

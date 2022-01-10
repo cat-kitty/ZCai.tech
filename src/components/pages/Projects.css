@@ -23,8 +23,8 @@
 .polaroid {
   display: flex; /*Allows for the manipulation so that text is centered*/
   position: relative;
-  background: rgb(13,1,250);
-  background: linear-gradient(0deg, rgba(13,1,250,0.5701492537313433) 0%, rgba(177,173,253,1) 39%, rgba(255,255,255,1) 99%);   width: 85vw;
+  background: rgb(1, 233, 250);
+  background: linear-gradient(0deg, rgba(165, 250, 229, 0.57) 0%, rgba(177,173,253,1) 49%, rgba(255,255,255,1) 99%);   width: 85vw;
   height: 45vh;
   border-radius: 5px;
   margin: 10px;
@@ -46,8 +46,17 @@
 .items{
   padding-left: 2%;
 }
-.nice {
-  display: flex; /*Allows for the manipulation so that text is centered*/
+
+.spacer-50 {
+  margin: 50px 0;
+} 
+
+.spacer-20{
+  margin: 20px 0;
+}
+
+/* .nice {
+  display: flex; Allows for the manipulation so that text is centered
   position: relative;
   background: #f9f9f9;
   width: 40vw;
@@ -57,15 +66,25 @@
   left: 25%;
   padding: 2%;
   font-size: 2.5vh;
-  /*bottom: 50%;*/
+  bottom: 50%;
   box-shadow: 2px 5px 8px rgba(37, 36, 33, .2);
-  overflow: auto; /* If text overflows the box */
+  overflow: auto; If text overflows the box
   transition: all 0.3s ease;
   align-items: center;
-}
+} */
 
 .projectimg{
-  max-width: 20%;
+  width: 30vw;
+  max-height: 35vh;
+}
+
+@media screen and (max-width: 768px) {
+
+  .projectimg{
+    width: 50vw;
+    max-height: 100%;
+  }
+
 }
 /* a {
     color: inherit;

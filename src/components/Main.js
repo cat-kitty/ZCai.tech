@@ -11,7 +11,7 @@ function Main() {
     <div className="main-container">
       <video src="/videos/video-2.mp4" autoPlay loop muted />
       <h1>WELCOME</h1>
-      <p>This site is currently under construction, only the Timeline has been completed ~ Construction should be completed by February</p>
+      <p className="centerp">This site is currently under construction, only the Timeline and Blog have been completed ~ Construction should be completed by February</p>
       <div className="main-btns">
         <Button2
           className="btns"

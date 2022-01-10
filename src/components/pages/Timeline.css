@@ -9,7 +9,7 @@
 */
 body {
   /* background: #e7f8f8; */
-  background: linear-gradient(90deg, rgb(222, 221, 253) 0%, rgba(253, 160, 210, 0.562) 35%, rgba(194,245,255,1) 100%);
+  background: linear-gradient(90deg, rgb(253, 110, 217) 0%, rgba(253, 160, 210, 0.562) 55%, rgb(73, 222, 252) 100%);
   font-family: Helvetica, sans-serif;
   color: #525f7f;
 }
