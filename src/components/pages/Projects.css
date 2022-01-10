@@ -23,8 +23,8 @@
 .polaroid {
   display: flex; /*Allows for the manipulation so that text is centered*/
   position: relative;
-  background: #f9f9f9;
-  width: 85vw;
+  background: rgb(13,1,250);
+  background: linear-gradient(0deg, rgba(13,1,250,0.5701492537313433) 0%, rgba(177,173,253,1) 39%, rgba(255,255,255,1) 99%);   width: 85vw;
   height: 45vh;
   border-radius: 5px;
   margin: 10px;
