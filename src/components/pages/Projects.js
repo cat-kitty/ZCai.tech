@@ -27,7 +27,6 @@ export default function Projects() {
         </div>
       </div>*/}
       <div className="polaroid">
-        <img className ="projectimg" src="/images/project-project.png" alt="Image of zcai.tech Website"/>
         <div className="items">
           <h1 className="smallh1">Personal Website</h1>
           <p class="teaser-text">
@@ -36,9 +35,11 @@ export default function Projects() {
             <a href="/blog/personalwebsite">Read more...</a>
           </p>
           </div>
+        <img className ="projectimg" src="/images/project-project.png" alt="Image of zcai.tech Website"/>
       </div>
 
       <div className="polaroid">
+        <img className ="projectimg" src="/images/project-blog.png" alt=""/>
         <div className="items">
           <h1 className="smallh1">Blog Website</h1>
           <p class="teaser-text">
@@ -47,7 +48,18 @@ export default function Projects() {
             <a href="/blog/personalwebsite">Read more...</a>
             </p>
           </div>
-          <img className ="projectimg" src="/images/project-blog.png" alt=""/>
+      </div>
+
+      <div className="polaroid">        
+        <div className="items">
+          <h1 className="smallh1">Portfolio Generator</h1>
+          <p class="teaser-text">
+            Uses libaries and history from YahooFinance to generate a safe portfolio based on a number of stocks. To learn more about this process,            
+            <br></br>
+            <a href="/blog/personalwebsite">Read more...</a>
+            </p>
+          </div>
+        <img className ="projectimg" src="/images/project-cfm.png" alt=""/>
       </div>
 
       <div className="polaroid">
