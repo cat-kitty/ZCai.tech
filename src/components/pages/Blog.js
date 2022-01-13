@@ -24,7 +24,7 @@ export default function Blog() {
         <div class="item">
           <h1 className="labelh1">School</h1>
           <div class="accent-line pink3"></div>
-          <p className="blogp">find beautiful spots & delicious food in seattle.</p>
+          <p className="blogp">Learn about my experience at the University of Waterloo.</p>
         </div>
 
         <div class="item pink3">
@@ -37,7 +37,7 @@ export default function Blog() {
         <div class="item">
           <h1 className="labelh1">Activities</h1>
           <div class="accent-line pink3"></div>
-          <p className="blogp">share with your friends and family.</p>
+          <p className="blogp">Discover things to enjoy with friends and family.</p>
         </div>
       </div>
 
