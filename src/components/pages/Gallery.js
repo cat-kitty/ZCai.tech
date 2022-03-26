@@ -25,32 +25,87 @@ export default function Gallery() {
       ></link>
 
       <ul id="categories" class="clr">
-        <li class="pusher"></li>
+        {/* <li class="pusher"></li> */}
         <li>
           <div>
-            <img src="/images/Art/2020.8.11.png" alt="Thinking Anime Boy" />
-            <h1>Thinking Anime Boy</h1>
+            <img src="/images/Art/2020.8.11.png" alt="Thinking Anime Boy (Katsuki Bakugo)" />
+            <h1>Bakugo (My Hero Academia)</h1>
             <p>2020.8.11 Ink Drawing (Black)</p>
           </div>
         </li>
+        <li></li>
+        <li class="pusher"></li>
         <li>
           <div>
-            <img
-              src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg"
-              alt=""
-            />
-            <h1>This is a title</h1>
-            <p>Some sample text about the article this hexagon leads to</p>
+            <img src="/images/Art/2019.8.19.jpg" alt="Emolga Pokémon" />
+            <h1>Emolga (Pokémon)</h1>
+            <p>2019.8.19 Pencil Crayon Art</p>
           </div>
         </li>
         <li>
           <div>
-            <img
-              src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg"
-              alt=""
-            />
-            <h1>This is a title</h1>
-            <p>Some sample text about the article this hexagon leads to</p>
+            <img src="/images/Art/2019.8.18.jpg" alt="Eevee Pokémon" />
+            <h1>Eevee (Pokémon)</h1>
+            <p>2019.8.18 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.8.16.jpg" alt="Piplup Pokémon" />
+            <h1>Piplup (Pokémon)</h1>
+            <p>2019.8.16 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.8.15p.jpg" alt="Pikachu Pokémon" />
+            <h1>Pikachu (Pokémon)</h1>
+            <p>2019.8.15 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.8.15.jpg" alt="Misdreavus Pokémon" />
+            <h1>Misdreavus (Pokémon)</h1>
+            <p>2019.8.15 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.8.14.jpg" alt="Shaymin Pokémon" />
+            <h1>Shaymin (Pokémon)</h1>
+            <p>2019.8.14 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.7.20.jpg" alt="Gold Hair Anime Boy (Chikage Kazama)" />
+            <h1>Kazama (Hakuoki)</h1>
+            <p>2019.7.20 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li></li><li class="pusher"></li>
+        {/* <li></li>
+        <li class="pusher"></li> */}
+        <li>
+          <div>
+            <img src="/images/Art/2017.3.30.jpg" alt="Red Hair Anime Boy" />
+            <h1>Red Hair Anime Boy</h1>
+            <p>2017.3.30 Pencil Crayon Art</p>
+          </div>
+        </li>        
+        <li>
+          <div>
+            <img src="/images/Art/2017.3.24.jpg" alt="Red Rose" />
+            <h1>Red Rose</h1>
+            <p>2017.3.24 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2017.2.17.jpg" alt="Killua Zoldyck Cover 17" />
+            <h1>Killua (Hunter X Hunter)</h1>
+            <p>2017.2.17 Pencil Crayon Art</p>
           </div>
         </li>
         {/* <li>
