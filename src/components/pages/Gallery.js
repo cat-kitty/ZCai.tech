@@ -26,7 +26,38 @@ export default function Gallery() {
       {/* Images are sorted based on year so search Y20XX */}
       <ul id="categories" class="clr">
         {/* <li class="pusher"></li> */}
+        {/* Y2021 */}
+        <li>
+          <div>
+            <img src="/images/Art/2021.1.29.png" alt="Girl Head Down on Desk" />
+            <h1>Tired</h1>
+            <p>2021.1.29 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li></li>
+        <li class="pusher"></li>
         {/* Y2020 */}
+        <li>
+          <div>
+            <img src="/images/Art/2020.9.30.png" alt="Father and Daughter Hugging" />
+            <h1>Dad's Birthday</h1>
+            <p>2020.9.30 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.9.22w.png" alt="Happy Anniversary" />
+            <h1>Calligraphy Card</h1>
+            <p>2020.9.22 Ink Printing (Color)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.9.22r.png" alt="Mom and Dad" />
+            <h1>Calligraphy Card</h1>
+            <p>2020.9.22 Ink Printing (Color)</p>
+          </div>
+        </li>
         <li>
           <div>
             <img src="/images/Art/2020.8.11.png" alt="Thinking Anime Boy (Katsuki Bakugo)" />
@@ -34,9 +65,93 @@ export default function Gallery() {
             <p>2020.8.11 Ink Drawing (Black)</p>
           </div>
         </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.6.18.jpg" alt="Victini Pokémon" />
+            <h1>Victini (Pokémon)</h1>
+            <p>2020.6.18 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.6.5.jpg" alt="Aurorus Pokémon" />
+            <h1>Aurorus (Pokémon)</h1>
+            <p>2020.6.5 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.4.4s.jpg" alt="Sandshrew Pokémon" />
+            <h1>Sandshrew (Pokémon)</h1>
+            <p>2020.4.4 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.4.4.jpg" alt="Wooper Pokémon" />
+            <h1>Wooper (Pokémon)</h1>
+            <p>2020.4.4 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.3.15.png" alt="Inuyasha" />
+            <h1>Inuyasha (InuYasha)</h1>
+            <p>2020.3.15 Pencil Crayon Art</p>
+          </div>
+        </li>
         <li></li>
         <li class="pusher"></li>
         {/* Y2019 */}
+        <li>
+          <div>
+            <img src="/images/Art/2019.10.10zb.jpg" alt="Bounsweet Pokémon" />
+            <h1>Bounsweet (Pokémon)</h1>
+            <p>2019.10.10 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.10.10s.jpg" alt="Solosis Pokémon" />
+            <h1>Solosis (Pokémon)</h1>
+            <p>2019.10.10 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.10.10.jpg" alt="Cottonee Pokémon" />
+            <h1>Cottonee (Pokémon)</h1>
+            <p>2019.10.10 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.10.5s.jpg" alt="Snorlax Pokémon" />
+            <h1>Snorlax (Pokémon)</h1>
+            <p>2019.10.5 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.10.5.jpg" alt="Zeraora Pokémon" />
+            <h1>Zeraora (Pokémon)</h1>
+            <p>2019.10.5 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.9.29b.jpg" alt="Vivillon Pokémon" />
+            <h1>Vivillon (Pokémon)</h1>
+            <p>2019.9.29 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.9.29.jpg" alt="Vulpix Pokémon" />
+            <h1>Vulpix (Pokémon)</h1>
+            <p>2019.9.29 Pencil Crayon Art</p>
+          </div>
+        </li>
         <li>
           <div>
             <img src="/images/Art/2019.9.20.jpg" alt="Gengar Pokémon" />
@@ -173,10 +288,10 @@ export default function Gallery() {
             <h1>Red Hair Anime Boy</h1>
             <p>2017.3.30 Pencil Crayon Art</p>
           </div>
-        </li>        
+        </li>       
         <li>
           <div>
-            <img src="/images/Art/2017.3.24.jpg" alt="Red Rose" />
+            <img src="/images/Art/2017.3.24.png" alt="Red Rose" />
             <h1>Red Rose</h1>
             <p>2017.3.24 Pencil Crayon Art</p>
           </div>
@@ -187,343 +302,15 @@ export default function Gallery() {
             <h1>Killua (Hunter X Hunter)</h1>
             <p>2017.2.17 Pencil Crayon Art</p>
           </div>
-        </li>
-        {/* <li>
-            <div>
-              <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li>
-            <div>
-              <img src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        
-        <li>
-            <div>
-              <img src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm7.staticflickr.com/6092/6227418584_d5883b0948.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li>
-            <div>
-              <img src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li><li>
-            <div>
-              <img src="https://farm4.staticflickr.com/3766/12953056854_b8cdf14f21.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li>
-            <div>
-              <img src="https://farm7.staticflickr.com/6139/5986939269_10721b8017.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li>
-            <div>
-              <img src="https://farm4.staticflickr.com/3165/5733278274_2626612c70.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm8.staticflickr.com/7163/6822904141_50277565c3.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm4.staticflickr.com/3771/13199704015_72aa535bd7.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li>
-            <div>
-              <img src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li>
-            <div>
-              <img src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li class="pusher"></li>
-          <li>
-            <div>
-              <img src="https://farm3.staticflickr.com/2878/10944255073_973d2cd25c.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-          <li>
-            <div>
-              <img src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li>
-            <div>
-              <img src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li>
-            <div>
-              <img src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm7.staticflickr.com/6092/6227418584_d5883b0948.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li>
-            <div>
-              <img src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm4.staticflickr.com/3766/12953056854_b8cdf14f21.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-          <li>
-            <div>
-              <img src="https://farm3.staticflickr.com/2878/10944255073_973d2cd25c.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-          <li>
-            <div>
-              <img src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li>
-            <div>
-              <img src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li>
-            <div>
-              <img src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm7.staticflickr.com/6092/6227418584_d5883b0948.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li>
-            <div>
-              <img src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm4.staticflickr.com/3766/12953056854_b8cdf14f21.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li>
-            <div>
-              <img src="https://farm7.staticflickr.com/6139/5986939269_10721b8017.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li>
-            <div>
-              <img src="https://farm4.staticflickr.com/3165/5733278274_2626612c70.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm8.staticflickr.com/7163/6822904141_50277565c3.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm4.staticflickr.com/3771/13199704015_72aa535bd7.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li>
-            <div>
-              <img src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li>
-            <div>
-              <img src="https://farm7.staticflickr.com/6139/5986939269_10721b8017.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm4.staticflickr.com/3165/5733278274_2626612c70.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm8.staticflickr.com/7163/6822904141_50277565c3.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm4.staticflickr.com/3771/13199704015_72aa535bd7.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li>
-            <div>
-              <img src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li>
-        <li class="pusher"></li>
-        <li>
-            <div>
-              <img src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg" alt=""/>
-              <h1>This is a title</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-          </div>
-        </li> */}
+        </li>        
       </ul>
-      <a
+      {/* <a
         id="fork"
         target="_blank"
         href="https://github.com/web-tiki/responsive-grid-of-hexagons"
       >
         Fork on GitHub
-      </a>
+      </a> */}
     </div>
   );
 }
