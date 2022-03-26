@@ -23,9 +23,10 @@ export default function Gallery() {
         rel="stylesheet"
         type="text/css"
       ></link>
-
+      {/* Images are sorted based on year so search Y20XX */}
       <ul id="categories" class="clr">
         {/* <li class="pusher"></li> */}
+        {/* Y2020 */}
         <li>
           <div>
             <img src="/images/Art/2020.8.11.png" alt="Thinking Anime Boy (Katsuki Bakugo)" />
@@ -35,6 +36,84 @@ export default function Gallery() {
         </li>
         <li></li>
         <li class="pusher"></li>
+        {/* Y2019 */}
+        <li>
+          <div>
+            <img src="/images/Art/2019.9.20.jpg" alt="Gengar Pokémon" />
+            <h1>Gengar (Pokémon)</h1>
+            <p>2019.9.20 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.8.27.jpg" alt="Cyndaquil Pokémon" />
+            <h1>Cyndaquil (Pokémon)</h1>
+            <p>2019.8.27 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.8.26.jpg" alt="Furret Pokémon" />
+            <h1>Furret (Pokémon)</h1>
+            <p>2019.8.26 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.8.25.jpg" alt="Ampharos Pokémon" />
+            <h1>Ampharos (Pokémon)</h1>
+            <p>2019.8.25 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.8.24l.jpg" alt="Lanturn Pokémon" />
+            <h1>Lanturn (Pokémon)</h1>
+            <p>2019.8.24 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.8.24.jpg" alt="Skitty Pokémon" />
+            <h1>Skitty (Pokémon)</h1>
+            <p>2019.8.24 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.8.22.jpg" alt="Togepi Pokémon" />
+            <h1>Togepi (Pokémon)</h1>
+            <p>2019.8.22 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.8.21.jpg" alt="Azurill Pokémon" />
+            <h1>Azurill (Pokémon)</h1>
+            <p>2019.8.21 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.8.20r.jpg" alt="Cinccino Pokémon" />
+            <h1>Cinccino (Pokémon)</h1>
+            <p>2019.8.20 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.8.20d.jpg" alt="Minccino and Cinccino Pokémon" />
+            <h1>Minccino and Cinccino (Pokémon)</h1>
+            <p>2019.8.20 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.8.20.jpg" alt="Minccino Pokémon" />
+            <h1>Minccino (Pokémon)</h1>
+            <p>2019.8.20 Pencil Crayon Art</p>
+          </div>
+        </li>
         <li>
           <div>
             <img src="/images/Art/2019.8.19.jpg" alt="Emolga Pokémon" />
@@ -87,6 +166,7 @@ export default function Gallery() {
         <li></li><li class="pusher"></li>
         {/* <li></li>
         <li class="pusher"></li> */}
+        {/* Y2017 */}
         <li>
           <div>
             <img src="/images/Art/2017.3.30.jpg" alt="Red Hair Anime Boy" />
