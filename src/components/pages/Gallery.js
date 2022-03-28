@@ -273,6 +273,13 @@ export default function Gallery() {
         </li>
         <li>
           <div>
+            <img src="/images/Art/2019.7.20a.jpg" alt="Baby Kija (Kija Hakuryuu)" />
+            <h1>Kija (Akatsuki No Yona)</h1>
+            <p>2019.7.20 Ink Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
             <img src="/images/Art/2019.7.20.jpg" alt="Gold Hair Anime Boy (Chikage Kazama)" />
             <h1>Kazama (Hakuoki)</h1>
             <p>2019.7.20 Pencil Crayon Art</p>
