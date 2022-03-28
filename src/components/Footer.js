@@ -115,7 +115,7 @@ function Footer() {
               <i className="fas fa-cat" />
             </Link>
           </div>
-          <small className="website-rights">ZCai © 2021</small>
+          <small className="website-rights">ZCai © 2022</small>
           <div className="social-icons">
             <Link
               className="social-icon-link facebook"
