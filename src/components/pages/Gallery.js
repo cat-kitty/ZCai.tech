@@ -46,6 +46,20 @@ export default function Gallery() {
         {/* Y2020 */}
         <li>
           <div>
+            <img src="/images/Art/2020.10.2.png" alt="Wisp" />
+            <h1>Day 2 - Inktober (Wisp)</h1>
+            <p>2020.10.2 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.10.1.jpg" alt="Fish" />
+            <h1>Day 1 - Inktober (Fish)</h1>
+            <p>2020.10.1 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
             <img src="/images/Art/2020.9.30.png" alt="Father and Daughter Hugging" />
             <h1>Dad's Birthday</h1>
             <p>2020.9.30 Pencil Crayon Art</p>
