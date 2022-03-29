@@ -29,6 +29,13 @@ export default function Gallery() {
         {/* Y2021 */}
         <li>
           <div>
+            <img src="/images/Art/2021.6.19.png" alt="Father Lion and Daughter Hugging" />
+            <h1>Father's Day</h1>
+            <p>2021.6.19 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
             <img src="/images/Art/2021.1.29.png" alt="Girl Head Down on Desk" />
             <h1>Tired</h1>
             <p>2021.1.29 Pencil Crayon Art</p>
@@ -56,6 +63,20 @@ export default function Gallery() {
             <img src="/images/Art/2020.9.22r.png" alt="Mom and Dad" />
             <h1>Calligraphy Card</h1>
             <p>2020.9.22 Ink Printing (Color)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.9.4.png" alt="Fingers Touching" />
+            <h1>Hold Me</h1>
+            <p>2020.9.4 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.8.26.png" alt="Pikachu Eating Apple" />
+            <h1>Pikachu in Snorlax Hoodie (Pokémon)</h1>
+            <p>2020.8.26 Pencil Crayon Art</p>
           </div>
         </li>
         <li>
@@ -98,6 +119,20 @@ export default function Gallery() {
             <img src="/images/Art/2020.3.15.png" alt="Inuyasha" />
             <h1>Inuyasha (InuYasha)</h1>
             <p>2020.3.15 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.2.13.png" alt="King Soo-Won with Eagle" />
+            <h1>Soo-Won (Akatsuki No Yona)</h1>
+            <p>2020.2.13 Ink Drawing (Blue)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.2.7.png" alt="Portrait of Anime Girl" />
+            <h1>Anime Girl Portrait</h1>
+            <p>2020.2.7 Ink Drawing (Blue)</p>
           </div>
         </li>
         <li></li>
@@ -273,16 +308,58 @@ export default function Gallery() {
         </li>
         <li>
           <div>
-            <img src="/images/Art/2019.7.20a.jpg" alt="Baby Kija (Kija Hakuryuu)" />
-            <h1>Kija (Akatsuki No Yona)</h1>
-            <p>2019.7.20 Ink Art</p>
+            <img src="/images/Art/2019.7.20.jpg" alt="Gold Hair Anime Boy (Chikage Kazama)" />
+            <h1>Kazama (Hakuoki)</h1>
+            <p>2019.7.20 Pencil Crayon Art</p>
           </div>
         </li>
         <li>
           <div>
-            <img src="/images/Art/2019.7.20.jpg" alt="Gold Hair Anime Boy (Chikage Kazama)" />
-            <h1>Kazama (Hakuoki)</h1>
-            <p>2019.7.20 Pencil Crayon Art</p>
+            <img src="/images/Art/2019.6.23.jpg" alt="Man in Leather Jacket" />
+            <h1>Anime Boy</h1>
+            <p>2019.6.23 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.5.18.jpg" alt="Anime Boy with Headphones" />
+            <h1>Headphone Anime Boy V2</h1>
+            <p>2019.5.18 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.4.9.jpg" alt="Baby Kija (Kija Hakuryuu)" />
+            <h1>Kija (Akatsuki No Yona)</h1>
+            <p>2019.4.9 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.3.27.jpg" alt="Anime Boy with Headphones" />
+            <h1>Headphone Anime Boy</h1>
+            <p>2019.3.27 Ink Drawing (Black)</p>
+          </div>
+        </li>        
+        <li>
+          <div>
+            <img src="/images/Art/2019.3.24.jpg" alt="Anime Boy Smoking" />
+            <h1>Smoking Anime Boy</h1>
+            <p>2019.3.24 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.3.23.jpg" alt="Two Anime Girls" />
+            <h1>Pair of Anime Girls Zen</h1>
+            <p>2019.3.23 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.3.11.jpg" alt="Yuuki Asuna" />
+            <h1>Asuna (Sword Art Online)</h1>
+            <p>2019.3.11 Ink Drawing (Black)</p>
           </div>
         </li>
         <li></li><li class="pusher"></li>
