@@ -46,6 +46,13 @@ export default function Gallery() {
         {/* Y2020 */}
         <li>
           <div>
+            <img src="/images/Art/2020.12.27.png" alt="Anime Girl with Coffee" />
+            <h1>Softly Waiting</h1>
+            <p>2020.12.27 Ink Drawing (Red)</p>
+          </div>
+        </li>
+        <li>
+          <div>
             <img src="/images/Art/2020.10.2.png" alt="Wisp" />
             <h1>Day 2 - Inktober (Wisp)</h1>
             <p>2020.10.2 Ink Drawing (Black)</p>
@@ -88,9 +95,37 @@ export default function Gallery() {
         </li>
         <li>
           <div>
+            <img src="/images/Art/2020.8.28.png" alt="Anime Boy in Leather Jacket" />
+            <h1>Leather Chip</h1>
+            <p>2020.8.28 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
             <img src="/images/Art/2020.8.26.png" alt="Pikachu Eating Apple" />
             <h1>Pikachu in Snorlax Hoodie (Pokémon)</h1>
             <p>2020.8.26 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.8.20.png" alt="Anime Boy Smoking" />
+            <h1>Raining Smoke</h1>
+            <p>2020.8.20 Ink Drawing (Blue)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.8.16.png" alt="Killua Zoldyck Sketch" />
+            <h1>Killua (Hunter X Hunter)</h1>
+            <p>2020.8.16 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>    
+          <div>
+            <img src="/images/Art/2020.8.14.png" alt="Anime Boy" />
+            <h1>Anime Boy</h1>
+            <p>2020.8.14 Pencil Sketch</p>
           </div>
         </li>
         <li>
@@ -102,9 +137,65 @@ export default function Gallery() {
         </li>
         <li>
           <div>
+            <img src="/images/Art/2020.7.25.png" alt="Headphone Girl" />
+            <h1>Headphone Girl</h1>
+            <p>2020.7.25 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.7.23.png" alt="Crying Girl" />
+            <h1>Crying Girl</h1>
+            <p>2020.7.23 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.7.13.jpg" alt="Chibi Anime Boy (Judaru)" />
+            <h1>Judar (Hepburn: Magi)</h1>
+            <p>2020.7.13 Pencil Sketch</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.6.194.png" alt="Father and Daughter Series 4" />
+            <h1>Happy Father's Day - 4</h1>
+            <p>2020.6.19 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.6.193.png" alt="Father and Daughter Series 3" />
+            <h1>Happy Father's Day - 3</h1>
+            <p>2020.6.19 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.6.192.png" alt="Father and Daughter Series 2" />
+            <h1>Happy Father's Day - 2</h1>
+            <p>2020.6.19 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.6.191.png" alt="Father and Daughter Series 1" />
+            <h1>Happy Father's Day - 1</h1>
+            <p>2020.6.19 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
             <img src="/images/Art/2020.6.18.jpg" alt="Victini Pokémon" />
             <h1>Victini (Pokémon)</h1>
             <p>2020.6.18 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.6.11.jpg" alt="Anime Man (Berukūri Shinseshisu Wan)" />
+            <h1>Bercouli (Sōdo Āto Onrain)</h1>
+            <p>2020.6.11 Pencil Sketch</p>
           </div>
         </li>
         <li>
@@ -147,6 +238,13 @@ export default function Gallery() {
             <img src="/images/Art/2020.2.7.png" alt="Portrait of Anime Girl" />
             <h1>Anime Girl Portrait</h1>
             <p>2020.2.7 Ink Drawing (Blue)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.1.17.png" alt="Anime Boy (Soo-Won)" />
+            <h1>Soo-Won (Akatsuki No Yona)</h1>
+            <p>2020.1.17 Pencil Sketch</p>
           </div>
         </li>
         <li></li>
@@ -323,7 +421,7 @@ export default function Gallery() {
         <li>
           <div>
             <img src="/images/Art/2019.7.20.jpg" alt="Gold Hair Anime Boy (Chikage Kazama)" />
-            <h1>Kazama (Hakuoki)</h1>
+            <h1>Kazama (Hakuouki)</h1>
             <p>2019.7.20 Pencil Crayon Art</p>
           </div>
         </li>
@@ -376,7 +474,39 @@ export default function Gallery() {
             <p>2019.3.11 Ink Drawing (Black)</p>
           </div>
         </li>
-        <li></li><li class="pusher"></li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.1.31.jpg" alt="Anime Boy (Toshizō Hijikata)" />
+            <h1>Hijikata (Hakuouki)</h1>
+            <p>2019.1.31 Pencil Sketch</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.1.28.jpg" alt="Anime Boy (Shin-Ah Seiryuu)" />
+            <h1>Shin-Ah (Akatsuki No Yona)</h1>
+            <p>2019.1.28 Pencil Sketch</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2019.1.25.jpg" alt="Anime Boy Holding Puppy" />
+            <h1>~ Happy Birthday Conner ~</h1>
+            <p>2019.1.25 Pencil Sketch</p>
+          </div>
+        </li>
+        <li></li>
+        <li class="pusher"></li>
+        {/* Y2018 */}
+        <li>
+          <div>
+            <img src="/images/Art/2018.10.5.png" alt="Tiger Eyes" />
+            <h1>Tiger Eyes</h1>
+            <p>2018.10.5 Pencil Sketch</p>
+          </div>
+        </li>
+        <li></li>
+        <li class="pusher"></li>
         {/* <li></li>
         <li class="pusher"></li> */}
         {/* Y2017 */}
