@@ -13,11 +13,37 @@ export default function Products() {
             <i class="fa fa-university"></i> 
           </div>
           <div class="timeline__event__date">
+            2022.01.05
+          </div>
+          <div class="timeline__event__content ">
+            <div class="timeline__event__title">
+              University of Waterloo - 1B
+            </div>
+            <div class="timeline__event__description">
+              <p>It's the first day of my second term at Waterloo! (Time to hunt for a co-op!) This term (1B) I took the following courses:
+                 <ul>
+                   <li>AFM 191 - Foundations for Financial Reporting</li>
+                   <li>CS 136 - Elementary Algorithm Design and Data Abstraction</li>
+                   <li>MATH 136 - Linear Algebra 1 for Honours Mathematics</li>
+                   <li>MATH 138 - Calculus 2 for Honours Mathematics</li>
+                   <li>PD 1 - Career Fundamentals</li>
+                   <li>SPCOM 223 - Public Speaking</li>
+                  </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__event animated fadeInUp delay-2s timeline__event--type1">
+          <div class="timeline__event__icon ">
+            <i class="fa fa-university"></i> 
+          </div>
+          <div class="timeline__event__date">
             2021.09.08
           </div>
           <div class="timeline__event__content ">
             <div class="timeline__event__title">
-              University of Waterloo - Day 1
+              University of Waterloo - 1A
             </div>
             <div class="timeline__event__description">
               <p>Although I had previously explored campus, it was my first official day with classes.

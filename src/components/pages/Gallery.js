@@ -6,7 +6,11 @@ export default function Gallery() {
   return (
     <div className="gallery-container">
       <div class="spacer-50"></div>
+      <div class="spacer-50"></div>
       <h1 className="gallery">GALLERY</h1>
+      <div class="spacer-50"></div>
+      <div class="spacer-50"></div>
+      <div class="spacer-50"></div>
       <div class="spacer-50"></div>
       <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,800italic,400,700,800"
