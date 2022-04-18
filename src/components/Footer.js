@@ -65,11 +65,17 @@ function Footer() {
             </Link>
             <a href="mailto:kittychoi15@gmail.com">Email</a>
             <Link
+              to={{ pathname: "https://ko-fi.com/zzcai" }}
+              target="_blank"
+            >
+              Ko-Fi
+            </Link>            
+            {/* <Link
               to={{ pathname: "https://www.patreon.com/ZCAI" }}
               target="_blank"
             >
               Patreon
-            </Link>
+            </Link> */}
             {/* <Link to="/">Sponsorships</Link> */}
           </div>
         </div>

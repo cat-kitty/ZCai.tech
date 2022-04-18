@@ -31,11 +31,25 @@ export default function Gallery() {
       <ul id="categories" class="clr">
         {/* <li class="pusher"></li> */}
         {/* Y2021 */}
+        <li>    
+          <div>
+            <img src="/images/Art/2021.7.20.png" alt="Killjoy" />
+            <h1>Killjoy (Valorant)</h1>
+            <p>2021.7.20 Pencil Sketch</p>
+          </div>
+        </li>
         <li>
           <div>
             <img src="/images/Art/2021.6.19.png" alt="Father Lion and Daughter Hugging" />
             <h1>Father's Day</h1>
             <p>2021.6.19 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2021.3.20.png" alt="Anime Girl in School Uniform" />
+            <h1>Anime Girl in Uniform</h1>
+            <p>2021.3.20 Pencil Crayon Art</p>
           </div>
         </li>
         <li>
@@ -53,6 +67,76 @@ export default function Gallery() {
             <img src="/images/Art/2020.12.27.png" alt="Anime Girl with Coffee" />
             <h1>Softly Waiting</h1>
             <p>2020.12.27 Ink Drawing (Red)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.12.6.png" alt="Girl with Balloons" />
+            <h1>Balloon Girl</h1>
+            <p>2020.12.6 Pencil Crayon Art</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.11.27.png" alt="Hisoka Morow" />
+            <h1>Hisoka (Hunter X Hunter)</h1>
+            <p>2020.11.27 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.10.11.png" alt="Anime Man with Finger to Lips" />
+            <h1>Day 11 - Inktober (Disgusting)</h1>
+            <p>2020.10.11 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.10.9.png" alt="Killua Zoldyck" />
+            <h1>Day 9 - Inktober (Throw) (Killua - Hunter X Hunter)</h1>
+            <p>2020.10.9 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.10.8.png" alt="Rin Matsuoka" />
+            <h1>Day 8 - Inktober (Teeth) (Rin - Free!)</h1>
+            <p>2020.10.8 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.10.7.jpg" alt="Dresses" />
+            <h1>Day 7 - Inktober (Fancy)</h1>
+            <p>2020.10.7 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.10.6.png" alt="Pikachu" />
+            <h1>Day 6 - Inktober (Rodent) (Pikachu - Pokémon)</h1>
+            <p>2020.10.6 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.10.5.png" alt="Knives" />
+            <h1>Day 5 - Inktober (Blade)</h1>
+            <p>2020.10.5 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.10.4.jpg" alt="Man Singing" />
+            <h1>Day 4 - Inktober (Radio)</h1>
+            <p>2020.10.4 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.10.3.jpg" alt="Levi Ackerman" />
+            <h1>Day 3 - Inktober (Bulky) (Levi - Attack on Titan)</h1>
+            <p>2020.10.3 Ink Drawing (Black)</p>
           </div>
         </li>
         <li>
@@ -249,6 +333,13 @@ export default function Gallery() {
             <img src="/images/Art/2020.1.17.png" alt="Anime Boy (Soo-Won)" />
             <h1>Soo-Won (Akatsuki No Yona)</h1>
             <p>2020.1.17 Pencil Sketch</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="/images/Art/2020.1.2.png" alt="Self-Portrait" />
+            <h1>Self Portrait</h1>
+            <p>2020.1.2 Pencil Sketch</p>
           </div>
         </li>
         <li></li>
