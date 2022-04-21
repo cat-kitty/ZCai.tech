@@ -31,23 +31,29 @@ export default function Gallery() {
       <ul id="categories" class="clr">
         {/* <li class="pusher"></li> */}
         {/* Y2021 */}
-        <li>    
+        <li>
           <div>
-            <img src="/images/Art/2021.7.20.png" alt="Killjoy" />
+            <img id="myModal" src="/images/Art/2021.7.20.png" alt="Killjoy" />
             <h1>Killjoy (Valorant)</h1>
             <p>2021.7.20 Pencil Sketch</p>
           </div>
         </li>
         <li>
           <div>
-            <img src="/images/Art/2021.6.19.png" alt="Father Lion and Daughter Hugging" />
+            <img
+              src="/images/Art/2021.6.19.png"
+              alt="Father Lion and Daughter Hugging"
+            />
             <h1>Father's Day</h1>
             <p>2021.6.19 Ink Drawing (Black)</p>
           </div>
         </li>
         <li>
           <div>
-            <img src="/images/Art/2021.3.20.png" alt="Anime Girl in School Uniform" />
+            <img
+              src="/images/Art/2021.3.20.png"
+              alt="Anime Girl in School Uniform"
+            />
             <h1>Anime Girl in Uniform</h1>
             <p>2021.3.20 Pencil Crayon Art</p>
           </div>
@@ -64,7 +70,10 @@ export default function Gallery() {
         {/* Y2020 */}
         <li>
           <div>
-            <img src="/images/Art/2020.12.27.png" alt="Anime Girl with Coffee" />
+            <img
+              src="/images/Art/2020.12.27.png"
+              alt="Anime Girl with Coffee"
+            />
             <h1>Softly Waiting</h1>
             <p>2020.12.27 Ink Drawing (Red)</p>
           </div>
@@ -85,7 +94,10 @@ export default function Gallery() {
         </li>
         <li>
           <div>
-            <img src="/images/Art/2020.10.11.png" alt="Anime Man with Finger to Lips" />
+            <img
+              src="/images/Art/2020.10.11.png"
+              alt="Anime Man with Finger to Lips"
+            />
             <h1>Day 11 - Inktober (Disgusting)</h1>
             <p>2020.10.11 Ink Drawing (Black)</p>
           </div>
@@ -155,7 +167,10 @@ export default function Gallery() {
         </li>
         <li>
           <div>
-            <img src="/images/Art/2020.9.30.png" alt="Father and Daughter Hugging" />
+            <img
+              src="/images/Art/2020.9.30.png"
+              alt="Father and Daughter Hugging"
+            />
             <h1>Dad's Birthday</h1>
             <p>2020.9.30 Pencil Crayon Art</p>
           </div>
@@ -183,7 +198,10 @@ export default function Gallery() {
         </li>
         <li>
           <div>
-            <img src="/images/Art/2020.8.28.png" alt="Anime Boy in Leather Jacket" />
+            <img
+              src="/images/Art/2020.8.28.png"
+              alt="Anime Boy in Leather Jacket"
+            />
             <h1>Leather Chip</h1>
             <p>2020.8.28 Ink Drawing (Black)</p>
           </div>
@@ -209,7 +227,7 @@ export default function Gallery() {
             <p>2020.8.16 Pencil Crayon Art</p>
           </div>
         </li>
-        <li>    
+        <li>
           <div>
             <img src="/images/Art/2020.8.14.png" alt="Anime Boy" />
             <h1>Anime Boy</h1>
@@ -218,7 +236,10 @@ export default function Gallery() {
         </li>
         <li>
           <div>
-            <img src="/images/Art/2020.8.11.png" alt="Thinking Anime Boy (Katsuki Bakugo)" />
+            <img
+              src="/images/Art/2020.8.11.png"
+              alt="Thinking Anime Boy (Katsuki Bakugo)"
+            />
             <h1>Bakugo (My Hero Academia)</h1>
             <p>2020.8.11 Ink Drawing (Black)</p>
           </div>
@@ -239,35 +260,50 @@ export default function Gallery() {
         </li>
         <li>
           <div>
-            <img src="/images/Art/2020.7.13.jpg" alt="Chibi Anime Boy (Judaru)" />
+            <img
+              src="/images/Art/2020.7.13.jpg"
+              alt="Chibi Anime Boy (Judaru)"
+            />
             <h1>Judar (Hepburn: Magi)</h1>
             <p>2020.7.13 Pencil Sketch</p>
           </div>
         </li>
         <li>
           <div>
-            <img src="/images/Art/2020.6.194.png" alt="Father and Daughter Series 4" />
+            <img
+              src="/images/Art/2020.6.194.png"
+              alt="Father and Daughter Series 4"
+            />
             <h1>Happy Father's Day - 4</h1>
             <p>2020.6.19 Ink Drawing (Black)</p>
           </div>
         </li>
         <li>
           <div>
-            <img src="/images/Art/2020.6.193.png" alt="Father and Daughter Series 3" />
+            <img
+              src="/images/Art/2020.6.193.png"
+              alt="Father and Daughter Series 3"
+            />
             <h1>Happy Father's Day - 3</h1>
             <p>2020.6.19 Ink Drawing (Black)</p>
           </div>
         </li>
         <li>
           <div>
-            <img src="/images/Art/2020.6.192.png" alt="Father and Daughter Series 2" />
+            <img
+              src="/images/Art/2020.6.192.png"
+              alt="Father and Daughter Series 2"
+            />
             <h1>Happy Father's Day - 2</h1>
             <p>2020.6.19 Ink Drawing (Black)</p>
           </div>
         </li>
         <li>
           <div>
-            <img src="/images/Art/2020.6.191.png" alt="Father and Daughter Series 1" />
+            <img
+              src="/images/Art/2020.6.191.png"
+              alt="Father and Daughter Series 1"
+            />
             <h1>Happy Father's Day - 1</h1>
             <p>2020.6.19 Ink Drawing (Black)</p>
           </div>
@@ -281,7 +317,10 @@ export default function Gallery() {
         </li>
         <li>
           <div>
-            <img src="/images/Art/2020.6.11.jpg" alt="Anime Man (Berukūri Shinseshisu Wan)" />
+            <img
+              src="/images/Art/2020.6.11.jpg"
+              alt="Anime Man (Berukūri Shinseshisu Wan)"
+            />
             <h1>Bercouli (Sōdo Āto Onrain)</h1>
             <p>2020.6.11 Pencil Sketch</p>
           </div>
@@ -316,7 +355,10 @@ export default function Gallery() {
         </li>
         <li>
           <div>
-            <img src="/images/Art/2020.2.13.png" alt="King Soo-Won with Eagle" />
+            <img
+              src="/images/Art/2020.2.13.png"
+              alt="King Soo-Won with Eagle"
+            />
             <h1>Soo-Won (Akatsuki No Yona)</h1>
             <p>2020.2.13 Ink Drawing (Blue)</p>
           </div>
@@ -459,7 +501,10 @@ export default function Gallery() {
         </li>
         <li>
           <div>
-            <img src="/images/Art/2019.8.20d.jpg" alt="Minccino and Cinccino Pokémon" />
+            <img
+              src="/images/Art/2019.8.20d.jpg"
+              alt="Minccino and Cinccino Pokémon"
+            />
             <h1>Minccino and Cinccino (Pokémon)</h1>
             <p>2019.8.20 Pencil Crayon Art</p>
           </div>
@@ -515,7 +560,10 @@ export default function Gallery() {
         </li>
         <li>
           <div>
-            <img src="/images/Art/2019.7.20.jpg" alt="Gold Hair Anime Boy (Chikage Kazama)" />
+            <img
+              src="/images/Art/2019.7.20.jpg"
+              alt="Gold Hair Anime Boy (Chikage Kazama)"
+            />
             <h1>Kazama (Hakuouki)</h1>
             <p>2019.7.20 Pencil Crayon Art</p>
           </div>
@@ -529,25 +577,34 @@ export default function Gallery() {
         </li>
         <li>
           <div>
-            <img src="/images/Art/2019.5.18.jpg" alt="Anime Boy with Headphones" />
+            <img
+              src="/images/Art/2019.5.18.jpg"
+              alt="Anime Boy with Headphones"
+            />
             <h1>Headphone Anime Boy V2</h1>
             <p>2019.5.18 Ink Drawing (Black)</p>
           </div>
         </li>
         <li>
           <div>
-            <img src="/images/Art/2019.4.9.jpg" alt="Baby Kija (Kija Hakuryuu)" />
+            <img
+              src="/images/Art/2019.4.9.jpg"
+              alt="Baby Kija (Kija Hakuryuu)"
+            />
             <h1>Kija (Akatsuki No Yona)</h1>
             <p>2019.4.9 Ink Drawing (Black)</p>
           </div>
         </li>
         <li>
           <div>
-            <img src="/images/Art/2019.3.27.jpg" alt="Anime Boy with Headphones" />
+            <img
+              src="/images/Art/2019.3.27.jpg"
+              alt="Anime Boy with Headphones"
+            />
             <h1>Headphone Anime Boy</h1>
             <p>2019.3.27 Ink Drawing (Black)</p>
           </div>
-        </li>        
+        </li>
         <li>
           <div>
             <img src="/images/Art/2019.3.24.jpg" alt="Anime Boy Smoking" />
@@ -571,21 +628,30 @@ export default function Gallery() {
         </li>
         <li>
           <div>
-            <img src="/images/Art/2019.1.31.jpg" alt="Anime Boy (Toshizō Hijikata)" />
+            <img
+              src="/images/Art/2019.1.31.jpg"
+              alt="Anime Boy (Toshizō Hijikata)"
+            />
             <h1>Hijikata (Hakuouki)</h1>
             <p>2019.1.31 Pencil Sketch</p>
           </div>
         </li>
         <li>
           <div>
-            <img src="/images/Art/2019.1.28.jpg" alt="Anime Boy (Shin-Ah Seiryuu)" />
+            <img
+              src="/images/Art/2019.1.28.jpg"
+              alt="Anime Boy (Shin-Ah Seiryuu)"
+            />
             <h1>Shin-Ah (Akatsuki No Yona)</h1>
             <p>2019.1.28 Pencil Sketch</p>
           </div>
         </li>
         <li>
           <div>
-            <img src="/images/Art/2019.1.25.jpg" alt="Anime Boy Holding Puppy" />
+            <img
+              src="/images/Art/2019.1.25.jpg"
+              alt="Anime Boy Holding Puppy"
+            />
             <h1>~ Happy Birthday Conner ~</h1>
             <p>2019.1.25 Pencil Sketch</p>
           </div>
@@ -611,7 +677,7 @@ export default function Gallery() {
             <h1>Red Hair Anime Boy</h1>
             <p>2017.3.30 Pencil Crayon Art</p>
           </div>
-        </li>       
+        </li>
         <li>
           <div>
             <img src="/images/Art/2017.3.24.png" alt="Red Rose" />
@@ -621,11 +687,14 @@ export default function Gallery() {
         </li>
         <li>
           <div>
-            <img src="/images/Art/2017.2.17.jpg" alt="Killua Zoldyck Cover 17" />
+            <img
+              src="/images/Art/2017.2.17.jpg"
+              alt="Killua Zoldyck Cover 17"
+            />
             <h1>Killua (Hunter X Hunter)</h1>
             <p>2017.2.17 Pencil Crayon Art</p>
           </div>
-        </li>        
+        </li>
       </ul>
       {/* <a
         id="fork"

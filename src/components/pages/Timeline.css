@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -14,6 +15,11 @@ body {
   color: #525f7f;
 }
 
+.centerpls {
+  display: flex;
+  flex-direction: column;
+}
+
 .timeline-container{
   /*position: absolute;*/
   white-space: wrap;
@@ -22,12 +28,14 @@ body {
 /* Prevents the timeline title from being hidden under the navbar when zooming */
 .timeline-title{
   padding-top: 50px;
-  padding-bottom: 50px;
+  font-size: 5vw;
+  /* padding-bottom: 50px; */
 }
 
 h1 {
   margin: 5%;
   text-align: center;
+  flex-wrap: wrap;
   font-size: 2rem;
   font-weight: 100;
 }
@@ -57,7 +65,7 @@ h1 {
   border-radius: 0 6px 6px 0; /*Changes the curvature of the corners*/
 }
 .timeline__event:nth-child(2n + 1) .timeline__event__content {
-  border-radius: 6px 0 0 6px;
+  border-radius: 0 0 6px 6px;
 }
 .timeline__event:nth-child(2n + 1) .timeline__event__icon:before {
   content: "";
@@ -98,7 +106,7 @@ h1 {
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
   background: #fff;
   width: calc(40vw - 84px);
-  border-radius: 0 6px 6px 0;
+  border-radius: 0 0 6px 6px;
 }
 .timeline__event__date {
   color: #f6a4ec;
@@ -172,7 +180,12 @@ ul {
   display: inline-block;
   margin: 0 10px;
 }*/
-
+/*Color code:
+Purple - Education (Type 1)
+Blue - Work (Type 2)
+Green - Volunteering (Type 3)
+Pink - Achievements (Type 4)
+Yellow - Athletics (Type 5)*/
 .timeline__event--type2:after {
   background: #555ac0;
 }
@@ -260,13 +273,13 @@ ul {
 .timeline__event:last-child .timeline__event__icon:before {
   content: none;
   /*padding-bottom: 5%;*/
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 @media screen and (max-width: 800px){
   .timeline-container{
     margin-top: 10%;
-    margin-bottom: 200%;
+    /* margin-bottom: 200%; */
   }
 
   h1 {
@@ -276,9 +289,9 @@ ul {
     font-weight: 100;
   }
 
-  .first{
-    margin-top: 150%;
-  }
+  /* .first{
+    margin-top: 200%;
+  } */
 
   .timeline__event {
     flex-direction: column;
@@ -313,10 +326,7 @@ ul {
     border-radius: 6px 6px 0 0;
     margin: 0;
  }
-
- /*.timeline__event:last-child {
-   margin-bottom: 100%;
- }*/
+ 
 }
 
 @keyframes fillLeft {
