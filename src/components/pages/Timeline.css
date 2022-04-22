@@ -43,7 +43,7 @@ h1 {
 .timeline {
   display: flex;
   flex-direction: column;
-  margin: 25% auto;
+  margin: -20% auto;
   position: relative;
 }
 
