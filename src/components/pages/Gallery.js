@@ -607,6 +607,13 @@ export default function Gallery() {
         </li>
         <li>
           <div>
+            <img src="/images/Art/2019.3.25.jpg" alt="Casual Anime Boy " />
+            <h1>Anime Boy</h1>
+            <p>2019.3.25 Ink Drawing (Black)</p>
+          </div>
+        </li>
+        <li>
+          <div>
             <img src="/images/Art/2019.3.24.jpg" alt="Anime Boy Smoking" />
             <h1>Smoking Anime Boy</h1>
             <p>2019.3.24 Ink Drawing (Black)</p>
