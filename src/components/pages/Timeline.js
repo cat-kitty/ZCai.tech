@@ -161,6 +161,40 @@ export default function Products() {
             </div>
           </div>
         </div>
+        
+        <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+          <div class="timeline__event__icon">
+            <i class="far fa-handshake"></i>
+          </div>
+          <div class="timeline__event__date">2018.03.12</div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              Volunteer - CCM Toronto (Spring Camp Counsellor)
+            </div>
+            <div class="timeline__event__description">
+              <p>
+                ❖ Volunteered over the March Break from March 12 - March 16, 2018 for 35 hours
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+          <div class="timeline__event__icon">
+            <i class="far fa-handshake"></i>
+          </div>
+          <div class="timeline__event__date">2018.01.30</div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              Volunteer - J.B. Tyrrell SR. P.S. (Volunteer Teacher Assistant)
+            </div>
+            <div class="timeline__event__description">
+              <p>
+                ❖ Went back to my middle school to volunteer for 7 hours
+              </p>
+            </div>
+          </div>
+        </div>
 
         <div class="timeline__event animated fadeInUp timeline__event--type5">
           <div class="timeline__event__icon">
@@ -176,6 +210,30 @@ export default function Products() {
           </div>
           {/* </div> */}
         </div>
+
+        <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+          <div class="timeline__event__icon">
+            <i class="far fa-handshake"></i>
+          </div>
+          <div class="timeline__event__date">2017.7.4</div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              Volunteer - The Village Summer Camp CYC (Camp Counsellor)
+            </div>
+            <div class="timeline__event__description">
+              <p>
+                ❖ Volunteered from July 4 - August 11, 2017 for 196 hours
+              </p>
+              <p>
+                ❖ Organized BBQ event with over 200 campers, maintained the face painting area and created face paintings in less than 10 minutes for campers
+              </p>
+              <p>
+                ❖ Responsible for health and well being for 20 campers (6-12 years old)
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* <div class="spacer-50"></div> */}
       </div>
     </div>
