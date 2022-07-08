@@ -28,11 +28,11 @@ export default function Projects() {
       </div>*/}
       <div className="polaroid">
         <div className="items">
-          <h1 className="smallh1">Personal Website</h1>
+          <h1 className="smallh1">Personal Website (zcai.tech)</h1>
           <p class="teaser-text">
             Used React, Javascript, HTML, CSS to create an interactive webpage. To learn more about this process,
             <br></br>
-            <a href="/blog/personalwebsite">Read more...</a>
+            <a href="https://github.com/cat-kitty/ZCai.tech">Read more...</a>
           </p>
           </div>
         <img className ="projectimg" src="/images/project-project.png" alt="Image of zcai.tech Website"/>
@@ -56,7 +56,7 @@ export default function Projects() {
           <p class="teaser-text">
             Uses libaries and history from YahooFinance to generate a safe portfolio based on a number of stocks. To learn more about this process,            
             <br></br>
-            <a href="/blog/personalwebsite">Read more...</a>
+            <a href="https://github.com/AndreSlavescu/CFM-Group-Assignment">Read more...</a>
             </p>
           </div>
         <img className ="projectimg" src="/images/project-cfm.png" alt=""/>
@@ -69,7 +69,7 @@ export default function Projects() {
           <p class="teaser-text">
             Used front-end, APIs, twitter analysis, and natural language processing to send information whether a stock should be bought. To learn more about this process,            
             <br></br>
-            <a href="/blog/personalwebsite">Read more...</a>
+            <a href="https://github.com/ProfiTech-Trading-Bot/Trading-Bot">Read more...</a>
             </p>
           </div>
       </div>
