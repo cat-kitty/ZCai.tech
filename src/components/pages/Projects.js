@@ -80,7 +80,7 @@ export default function Projects() {
           <p class="teaser-text">
             Created an interactive game using Java with GUI, OOP, and AI. To learn more about this process,
             <br></br>
-            <a href="/blog/personalwebsite">Read more...</a>
+            <a href="https://github.com/cat-kitty/Agar.io">Read more...</a>
             </p>
           </div>
           <img className ="projectimg" src="/images/project-agario.png" alt=""/>
