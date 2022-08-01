@@ -20,6 +20,7 @@ export default function Blog() {
         </div>
       </div>
 
+
       <div class="container">
         <div class="item">
           <h1 className="labelh1">School</h1>
